@@ -35,7 +35,7 @@ export default function ProductDetailController({
       amount: 7000,
       quantity : 2
     }
-    const response = await fetch("http://localhost:5000/payment", {
+    const response = await fetch("https://mysggame.com:8000/payment", {
       method: "POST",
       body: JSON.stringify(paymetgateway),
           headers: {
