@@ -1,0 +1,12 @@
+.product-detail {
+  margin-bottom: emCal(16, 100);
+  &__wrapper {
+    padding-bottom: emCal(16, 100);
+    border-bottom: 1px solid setShadeColor(light);
+    .product-detail__slide-two {
+      @include mq(md) {
+        margin-bottom: emCal(16, 70);
+      }
+    }
+  }
+}
